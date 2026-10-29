@@ -90,6 +90,14 @@ dev/            開發用的測試與探測腳本(見 dev/README.md)
 自我測試:`LumEasy.exe --selftest`(不需要 Lumerical)、`LumEasy.exe --selftest run`(會真的開 Lumerical 跑一個 2D 範例),
 結果寫在 `%TEMP%\lumeasy_selftest.txt`。
 
+## 授權條款
+
+LumEasy 以 [Apache License 2.0](LICENSE) 釋出:可以自由使用(含商用)、修改、再發布,
+再發布時請附上 [LICENSE](LICENSE) 與 [NOTICE](NOTICE),並註明改了哪些地方。
+這份條款只涵蓋 LumEasy 本身的程式碼;使用 Lumerical 仍需要你自己的 Ansys 授權。
+
+Copyright 2026 ToleLin
+
 ## 聲明
 
 本專案與 Ansys, Inc. 無關。Lumerical 與 Ansys 是 Ansys, Inc. 的商標。
