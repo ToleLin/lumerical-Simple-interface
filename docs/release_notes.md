@@ -27,3 +27,5 @@
 
 這個 EXE 由 GitHub Actions 在雲端打包,打包後跑過自我測試(`LumEasy.exe --selftest`)。
 在有 Lumerical 的電腦上可以跑完整測試:`LumEasy.exe --selftest run`(結果在 `%TEMP%\lumeasy_selftest.txt`)。
+
+以 Apache License 2.0 釋出(見專案的 `LICENSE`)。
