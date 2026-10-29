@@ -39,7 +39,9 @@ LumEasy 只透過 Lumerical 官方的 Python API(lumapi)和軟體溝通,**不碰
 ### 方法一:直接用 EXE(推薦,不用裝 Python)
 
 1. 到 [Releases](../../releases) 下載 `LumEasy.exe`
-2. 雙擊執行。第一次開啟約需 10–20 秒(解壓)。
+2. 雙擊執行。第一次開啟約需 10–20 秒(解壓)。Windows 若跳出「已保護您的電腦」(程式沒有數位簽章),按「其他資訊 → 仍要執行」。
+
+Releases 的 EXE 由 GitHub Actions 在雲端自動打包(`.github/workflows/release.yml`:推送 `v*` 標籤 → 測試 → 打包 → 自我測試 → 建立 Release 草稿)。
 
 ### 方法二:從原始碼執行
 
